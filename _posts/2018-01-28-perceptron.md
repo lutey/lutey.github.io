@@ -91,7 +91,11 @@ This feeds in to part two which uses state of the art machine learning tools to 
 
 The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading.
 
+# Part two
+
 The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.
+
+## Initial Results 
 
 ### Confusion Matrix
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm.png" alt="confusion matrix">
