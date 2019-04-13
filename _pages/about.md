@@ -5,6 +5,4 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
-
-Etc, etc, etc
+I'm an Economist and Financial Engineer who specializes in technical analysis and machine learning. My programming language of choice is Mathematica. 
