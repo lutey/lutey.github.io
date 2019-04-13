@@ -84,7 +84,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Matt Lutey"
   avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Financial Engineering Portfolio"
   location         : "Next Location, USA"
