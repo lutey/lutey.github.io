@@ -1,0 +1,557 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Image Processing Project - Matt Lutey</title>
+<meta name="description" content="Technical Analysis, Machine Learning, Support Vector Machines">
+
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Matt Lutey">
+<meta property="og:title" content="Image Processing Project">
+<meta property="og:url" content="http://localhost:4000/perceptron/">
+
+
+  <meta property="og:description" content="Technical Analysis, Machine Learning, Support Vector Machines">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/images/perceptron/percept.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2018-01-28T00:00:00-06:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/perceptron/">
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Matt Lutey",
+      "url": "http://localhost:4000",
+      "sameAs": null
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Matt Lutey Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Matt Lutey</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/about/" >About</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="http://localhost:4000/data-wrangling/" >Data Wrangling Projects</a>
+            </li>
+          
+        </ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+<div class="page__hero"
+  style=" "
+>
+  
+    <img src="http://localhost:4000/images/perceptron/percept.png" alt="Image Processing Project" class="page__hero-image">
+  
+  
+</div>
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+
+      
+        <img src="http://localhost:4000/images/mattEFA1.jpg" alt="Matt Lutey" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Matt Lutey</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Financial Engineering
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">New Orleans, USA</span>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.linkedin.com/in/lutey" itemprop="sameAs">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/lutey" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Image Processing Project">
+    <meta itemprop="description" content="Technical Analysis, Machine Learning, Support Vector Machines">
+    <meta itemprop="datePublished" content="January 28, 2018">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Image Processing Project
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <!-- ### Introduction
+
+This research discusses the viability of image processing to uncover nonlinear visual chart patterns using state of the art machine learning techniques. The expected benefit is to mimic the way technical analysts process information.
+
+Previous papers by Lo, Mamysky, Wang (2000), Chang and Osler (1994), Fama and Blume (1966), and Sweeney (1988) have shown the ability of technical stock price patterns to predict returns. Later studies are careful to note that predictability does not necessarily imply profitability, and focus more on nonlinear chart patterns. These are discussed as being more difficult to interpret arithmetically. Additional patterns and definitions are in Pring (1988).
+
+Pattern rules are taken from trade journals (Chang and Osler (1994)) and from print (Lo, Mamysky, Wang (2000), Edwards and McGee (1966)).
+
+Patterns are learned using kernel density estimation and a bandwidth selection similar to Lo, Mamysky, Wang (2000). Lo, Mamysky, Wang (2000) use Cross Validated Bandwidth to automate pattern selection.
+
+They call for more rigorous procedures to evaluate the bandwidth objectively. We remedy that. They also call for new methods to uncover the patterns which we discuss in part two of the paper.
+
+### Methodology1
+
+This study compares the results of several bandwidths using a local polynomial regression of order 0 and Gaussian Kernel. Some examples inlcude AICC, CV, GCV, T, etc. These are summarized in the following literature:
+
+- "AICC"-> "AIC modified eq 2.5 in (Hurvich and Simonoff,1998)",
+- "GCV"-> "Generalized Cross Validation (Graven and Wahba,1979)",
+- "AIC"-> "Akaike Info Criteria (Akaike,1973)",
+- "T"-> "Rice (1984)",
+- "CV"-> " Leave one out cross-validation",
+- "MAXP"-> "Maxium price difference, Maroney 2018
+
+The rules for the patterns are discussed below. These are from Edwards and Mcgee (1966) and later tested empirically by Lo, Mamysky, Wang (2000).
+
+# Pattern Definitions:
+
+1. Head and Shoulders:
+- E1 is a maximum
+- E3 > E1, E3 > E5
+- E1 and E5 are within 1.5 percent of their average
+- E2 and E5 are within 1.5 percent of their average,
+
+2. Inverse Head and Shoulders:
+- E1 is a minimum
+- E3 < E1, E3 < E5
+- E1 and E5 are within 1.5 percent of their average
+- E2 and E4 are within 1.5 percent of their average.
+
+3. Broadening Top:
+- E1 is a maximum
+- E1 < E3 < E5
+- E2 > E4
+
+4. Broadening Bottom:  
+- E1 is a minimum
+- E1 > E3 > E5
+- E2 < E4
+
+5. Triangle Top:
+- E1 is a maximum
+- E1 > E3 > E5
+- E2 < E4
+
+6. Triangle Bottom:
+- E1 is a minimum
+- E1 < E3 < E5
+- E2 > E4
+
+Additional rules are in the paper by Lo, Mamysky, and Wang (2000)
+
+
+For checking the reliability of the patterns professional analyst societies are noted as obtaining a CMT designation (Certified Market Technician). Other societies include: MTA, NTAA, STA, IFTA. (Linton 2010)
+
+# Head and Shoulders
+
+<img src="http://localhost:4000/images/perceptron/hs.png" alt="head and shoulders">
+
+## Inverse Head and Shoulders
+
+<img src="http://localhost:4000/images/perceptron/ihs.png" alt="inverse head and shoulders">
+
+# Broadening Top
+<img src="http://localhost:4000/images/perceptron/btop.png" alt="broadening top">
+
+# Double Top
+<img src="http://localhost:4000/images/perceptron/dtop.png" alt="double top">
+
+# Conclusion
+
+This feeds in to part two which uses state of the art machine learning tools to uncover the patterns. This is aimed at mimicking the way a trained technician sees and processes information in stock charts.
+
+The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading. -->
+
+<h1 id="part-two">Part two</h1>
+
+<p>The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.</p>
+
+<h2 id="initial-results">Initial Results</h2>
+
+<h3 id="confusion-matrix">Confusion Matrix</h3>
+<p><img src="http://localhost:4000/images/perceptron/cm.png" alt="confusion matrix" /></p>
+
+<p>The inital accuracy is 72.30% for in sample data.</p>
+
+<p>Although the classifier is confused with whether a rectangle bottom is a broadening bottom, it’s top three misses are in other classes. This is probably becuase there are only a few rectangle bottom observations and the rules are similar to other pattern types.</p>
+
+<p><img src="http://localhost:4000/images/perceptron/cm3.png" alt="confusion matrix" /></p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://localhost:4000/tags/#data-science" class="page__taxonomy-item" rel="tag">data science</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#data-wrangling" class="page__taxonomy-item" rel="tag">data wrangling</a><span class="sep">, </span>
+    
+      
+      
+      <a href="http://localhost:4000/tags/#messy-data" class="page__taxonomy-item" rel="tag">messy data</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2018-01-28T00:00:00-06:00">January 28, 2018</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Image+Processing+Project%20http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fperceptron%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="http://localhost:4000/perceptron/" rel="permalink">Image Processing Project
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Technical Analysis, Machine Learning, Support Vector Machines
+</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/lutey"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 Matt Lutey. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="http://localhost:4000/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+
+
+
+
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+
+  </body>
+</html>

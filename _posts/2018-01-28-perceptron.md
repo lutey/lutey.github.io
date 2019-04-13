@@ -1,5 +1,5 @@
 ---
-title: "Digital Image Processing Project"
+title: "Image Processing Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
