@@ -1,7 +1,7 @@
 ---
 layout: posts
 permalink: /data-wrangling/
-title: "Financial Engineering Projects"
+title: "Finance Projects"
 author_profile: true
 header:
   image: "/images/fort point.png"
