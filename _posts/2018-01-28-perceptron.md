@@ -3,7 +3,7 @@ title: "Digital Image Processing Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/perceptron/pattern.png"
 excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
 ---
