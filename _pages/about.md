@@ -5,4 +5,6 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm an Economist and Financial Engineer who specializes in technical analysis and machine learning. My programming language of choice is Mathematica. 
+I'm an Economist who specializes in technical analysis using state of the art machine learning tools. My programming language of choice is Mathematica.
+
+My PhD is in Financial Economics. The closest specialization is Financial Engineering. 
