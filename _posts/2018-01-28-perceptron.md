@@ -21,7 +21,21 @@ mathjax: "true"
 # Double Top
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/dtop.png" alt="double top">
 
+### Methodology
 
+Patterns are learned using kernel density estimation and a bandwidth selection similar to Lo, Mamysky, Wang (2000).
+This study compares the results of several bandwidths using a local polynomial regression of order 0 and Gaussian Kernel. Some examples inlcude AICC, CV, GCV, T, etc.
+
+This feeds in to part two which uses state of the art machine learning tools to uncover the patterns. This is aimed at mimicking the way a trained technician sees and processes information in stock charts.
+
+The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading.
+
+The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.
+
+### Confusion Matrix
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm.png" alt="confusion matrix">
+
+The inital accuracy is 72.30% for in sample data. 
 
 
 # H1 Heading
