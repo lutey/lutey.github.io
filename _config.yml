@@ -261,3 +261,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+      theme: minimal-mistakes-Jekyll
+      minimal_mistakes_skin: "dark"
