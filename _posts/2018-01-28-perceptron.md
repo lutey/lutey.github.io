@@ -7,6 +7,22 @@ header:
 excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
 ---
+# Head and Shoulders
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/hs.png" alt="head and shoulders">
+
+## Inverse Head and Shoulders
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/ihs.png" alt="inverse head and shoulders">
+
+# Broadening Top
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/btop.png" alt="broadening top">
+
+# Double Top
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/dtop.png" alt="double top">
+
+
+
 
 # H1 Heading
 
