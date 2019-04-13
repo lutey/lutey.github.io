@@ -6,10 +6,7 @@ header:
   image: "/images/perceptron/percept.png"
 excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
-layout: splash
-classes:
-  - landing
-  - dark-theme 
+
 ---
 ### Introduction
 
