@@ -8,7 +8,7 @@ excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
 
 ---
-### Introduction
+<!-- ### Introduction
 
 This research discusses the viability of image processing to uncover nonlinear visual chart patterns using state of the art machine learning techniques. The expected benefit is to mimic the way technical analysts process information.
 
@@ -90,7 +90,7 @@ For checking the reliability of the patterns professional analyst societies are 
 
 This feeds in to part two which uses state of the art machine learning tools to uncover the patterns. This is aimed at mimicking the way a trained technician sees and processes information in stock charts.
 
-The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading.
+The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading. -->
 
 # Part two
 
@@ -106,11 +106,3 @@ The inital accuracy is 72.30% for in sample data.
 Although the classifier is confused with whether a rectangle bottom is a broadening bottom, it's top three misses are in other classes. This is probably becuase there are only a few rectangle bottom observations and the rules are similar to other pattern types.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm3.png" alt="confusion matrix">
-
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
