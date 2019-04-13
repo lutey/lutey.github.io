@@ -6,6 +6,10 @@ header:
   image: "/images/perceptron/percept.png"
 excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
+layout: splash
+classes:
+  - landing
+  - dark-theme 
 ---
 ### Introduction
 
@@ -95,7 +99,7 @@ The benefit is for both academia and industry. For academia it can help with und
 
 The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.
 
-## Initial Results 
+## Initial Results
 
 ### Confusion Matrix
 <img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm.png" alt="confusion matrix">
