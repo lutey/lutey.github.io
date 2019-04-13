@@ -1,5 +1,5 @@
 ---
-title: "Data Wrangling Project"
+title: "Image Processing and Technical Analysis Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
