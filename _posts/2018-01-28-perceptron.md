@@ -1,5 +1,5 @@
 ---
-title: "Image Processing Project"
+title: "Digital Image Processing"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
@@ -91,7 +91,7 @@ For checking the reliability of the patterns professional analyst societies are 
 This feeds in to part two which uses state of the art machine learning tools to uncover the patterns. This is aimed at mimicking the way a trained technician sees and processes information in stock charts.
 
 The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading. -->
-
+<!--
 # Part two
 
 The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.
@@ -105,4 +105,4 @@ The inital accuracy is 72.30% for in sample data.
 
 Although the classifier is confused with whether a rectangle bottom is a broadening bottom, it's top three misses are in other classes. This is probably becuase there are only a few rectangle bottom observations and the rules are similar to other pattern types.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm3.png" alt="confusion matrix">
+<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/cm3.png" alt="confusion matrix"> -->

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-13T16:15:03-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matt Lutey</title><subtitle>Financial Engineer</subtitle><author><name>Matt Lutey</name></author><entry><title type="html">Image Processing Project</title><link href="http://localhost:4000/perceptron/" rel="alternate" type="text/html" title="Image Processing Project" /><published>2018-01-28T00:00:00-06:00</published><updated>2018-01-28T00:00:00-06:00</updated><id>http://localhost:4000/perceptron</id><content type="html" xml:base="http://localhost:4000/perceptron/">&lt;!-- ### Introduction
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-13T18:03:02-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Matt Lutey</title><subtitle>Engineering Portfolio</subtitle><author><name>Matt Lutey</name></author><entry><title type="html">Digital Image Processing</title><link href="http://localhost:4000/perceptron/" rel="alternate" type="text/html" title="Digital Image Processing" /><published>2018-01-28T00:00:00-06:00</published><updated>2018-01-28T00:00:00-06:00</updated><id>http://localhost:4000/perceptron</id><content type="html" xml:base="http://localhost:4000/perceptron/">&lt;!-- ### Introduction
 
 This research discusses the viability of image processing to uncover nonlinear visual chart patterns using state of the art machine learning techniques. The expected benefit is to mimic the way technical analysts process information.
 
@@ -81,18 +81,18 @@ For checking the reliability of the patterns professional analyst societies are 
 This feeds in to part two which uses state of the art machine learning tools to uncover the patterns. This is aimed at mimicking the way a trained technician sees and processes information in stock charts.
 
 The benefit is for both academia and industry. For academia it can help with understanding pattern statistics and confidence intervals. An added benefit is aggregating bias between output and professional analyst recommendation. For industry the benefit is program trading. --&gt;
+&lt;!--
+# Part two
 
-&lt;h1 id=&quot;part-two&quot;&gt;Part two&lt;/h1&gt;
+The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.
 
-&lt;p&gt;The patterns are trained in a support vector machine using digital images. The images are preprocessed for extrema by pixel values.&lt;/p&gt;
+## Initial Results
 
-&lt;h2 id=&quot;initial-results&quot;&gt;Initial Results&lt;/h2&gt;
+### Confusion Matrix
+&lt;img src=&quot;http://localhost:4000/images/perceptron/cm.png&quot; alt=&quot;confusion matrix&quot;&gt;
 
-&lt;h3 id=&quot;confusion-matrix&quot;&gt;Confusion Matrix&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/perceptron/cm.png&quot; alt=&quot;confusion matrix&quot; /&gt;&lt;/p&gt;
+The inital accuracy is 72.30% for in sample data.
 
-&lt;p&gt;The inital accuracy is 72.30% for in sample data.&lt;/p&gt;
+Although the classifier is confused with whether a rectangle bottom is a broadening bottom, it's top three misses are in other classes. This is probably becuase there are only a few rectangle bottom observations and the rules are similar to other pattern types.
 
-&lt;p&gt;Although the classifier is confused with whether a rectangle bottom is a broadening bottom, it’s top three misses are in other classes. This is probably becuase there are only a few rectangle bottom observations and the rules are similar to other pattern types.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/images/perceptron/cm3.png&quot; alt=&quot;confusion matrix&quot; /&gt;&lt;/p&gt;</content><author><name>Matt Lutey</name></author><category term="data wrangling" /><category term="data science" /><category term="messy data" /><summary type="html">Technical Analysis, Machine Learning, Support Vector Machines</summary></entry></feed>
+&lt;img src=&quot;http://localhost:4000/images/perceptron/cm3.png&quot; alt=&quot;confusion matrix&quot;&gt; --&gt;</content><author><name>Matt Lutey</name></author><category term="data wrangling" /><category term="data science" /><category term="messy data" /><summary type="html">Technical Analysis, Machine Learning, Support Vector Machines</summary></entry></feed>
