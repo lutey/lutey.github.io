@@ -1,10 +1,10 @@
 ---
-title: "Image Processing Project"
+title: "Digital Image Processing Project"
 date: 2018-01-28
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Technical Analysis, Machine Learning, Support Vector Machines"
 mathjax: "true"
 ---
 
