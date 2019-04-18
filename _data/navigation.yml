@@ -2,7 +2,7 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Financial Engineering"
+  - title: "Financial Engineering Projects"
     url: /data-wrangling/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
